@@ -1,10 +1,56 @@
-*{
-    margin: 0;
-    padding: 10px;
-      font-family: serif-clean 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#add{
+background-color: rgb(217, 226, 233);  
+
 
 }
-#box{
-background-color: rgba(36, 143, 231, 0.381);
+.para{
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.box{
+  
+  width: 100%;
+  background-color: #f2f2f2f1;
+  padding: 1px ;/*white border(SAALO YE MAI LIKHA)*/
+  border-color: seashell;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.font{
+  font-family: serif;
+  font-weight: 700;
+  font-size: 2.2em;
+  margin: 0;
+  color: rgb(8, 28, 152);
+}
+#font{
+  font-size: 1em;
+  margin: 0;
+  line-height: 2rem;
+  color: rgb(34, 7, 30);
 
+}
+#add{
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.logo-icon{
+  width: auto;
+  height: 90px;
+}
+.fix{
+   line-height: 1.2;
 }
